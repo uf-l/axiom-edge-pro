@@ -109,18 +109,6 @@ const FAQ = () => {
               ))}
             </div>
 
-            {/* Download Button */}
-            <div className="mt-8 p-6 bg-gradient-primary rounded-2xl text-center">
-              <h4 className="text-lg font-semibold text-primary-foreground mb-2">
-                Ready to Install?
-              </h4>
-              <p className="text-primary-foreground/80 text-sm mb-4">
-                Click below to get the bookmarklet code
-              </p>
-              <button className="bg-white text-primary px-6 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors">
-                Get Bookmarklet Code
-              </button>
-            </div>
           </div>
 
           {/* FAQ */}

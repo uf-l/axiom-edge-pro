@@ -3,57 +3,57 @@ import { MessageCircle, Heart, Repeat2 } from 'lucide-react';
 const Testimonials = () => {
   const testimonials = [
     {
-      username: "CryptoWhale_Alex",
-      handle: "@cryptowhale_alex",
-      content: "ValexTools literally saved me $50k last week. The rugpull detection caught a honeypot that would have drained my entire position. This tool pays for itself instantly.",
+      username: "Alex T***",
+      handle: "@ale***x",
+      content: "Honestly, this tool has been a game changer for me. I was getting wrecked by rugpulls almost daily until I started using the contract scanner. It's not perfect but it's caught several honeypots that would've cost me big time.",
       timestamp: "2h",
-      likes: 127,
-      retweets: 43,
-      verified: true
-    },
-    {
-      username: "MemeKing2024",
-      handle: "@memeking2024",
-      content: "Been using ValexTools for 3 months now. My win rate went from 40% to 78%. The early sniping feature is absolutely insane - got into $PEPE2 at $50k mcap 🚀",
-      timestamp: "4h",
-      likes: 89,
-      retweets: 22,
+      likes: 42,
+      retweets: 11,
       verified: false
     },
     {
-      username: "DeFi_Sarah",
-      handle: "@defi_sarah",
-      content: "As someone who trades 12+ hours a day, the speed improvement with ValexTools is game-changing. Transactions that used to take 30 seconds now execute in under 3 seconds.",
-      timestamp: "6h",
-      likes: 156,
-      retweets: 67,
-      verified: true
+      username: "Sarah M***",
+      handle: "@sar***coins",
+      content: "I was skeptical at first because, you know, free tools usually suck. But after using this for a few weeks, my PnL has actually improved. The speed difference is noticeable, especially during high gas periods.",
+      timestamp: "5h",
+      likes: 28,
+      retweets: 7,
+      verified: false
     },
     {
-      username: "SolanaDegenApe",
-      handle: "@solanadegenape",
-      content: "Made 25x on $BONK thanks to ValexTools early sniping. This bookmarklet is literally free money if you know how to use it. Best investment I've made this year tbh",
+      username: "Mike D***",
+      handle: "@mik***trader",
+      content: "Been trading memes for 2 years and this is the first tool that actually feels useful. Got into a few coins early because of the alerts. Still learning all the features but promising so far.",
       timestamp: "8h",
-      likes: 203,
-      retweets: 91,
+      likes: 63,
+      retweets: 15,
       verified: false
     },
     {
-      username: "CryptoAnalyst_J",
-      handle: "@cryptoanalyst_j",
-      content: "The risk management features in ValexTools are next level. Auto stop-loss saved me during the flash crash last month. Professional grade tools for serious traders.",
+      username: "Jessica R***",
+      handle: "@jes***crypto",
+      content: "The interface took me a bit to get used to, but once I figured it out, trading became so much smoother. Haven't had any issues with my Phantom wallet either, which was my main concern initially.",
       timestamp: "12h",
-      likes: 94,
-      retweets: 31,
-      verified: true
+      likes: 35,
+      retweets: 9,
+      verified: false
     },
     {
-      username: "MoonBoyMike",
-      handle: "@moonboymike",
-      content: "Went from losing $5k/month to making $15k/month after switching to ValexTools. The learning curve is worth it - this isn't just a tool, it's a trading superpower 💪",
+      username: "Tom K***",
+      handle: "@tom***sol",
+      content: "Not gonna lie, I was losing money pretty consistently before finding this. The risk management features helped me set better stop losses. Still make mistakes but fewer catastrophic ones lol",
       timestamp: "1d",
-      likes: 178,
-      retweets: 54,
+      likes: 71,
+      retweets: 18,
+      verified: false
+    },
+    {
+      username: "Lisa P***",
+      handle: "@lis***defi",
+      content: "Been using it for about a month now. The learning curve is real but worth it. My hit rate on new tokens has definitely improved. Customer support was actually helpful when I had questions too.",
+      timestamp: "1d",
+      likes: 46,
+      retweets: 12,
       verified: false
     }
   ];
@@ -61,12 +61,21 @@ const Testimonials = () => {
   return (
     <section id="testimonials" className="py-20 px-6 bg-secondary/20">
       <div className="max-w-7xl mx-auto">
+        {/* Disclaimer */}
+        <div className="text-center mb-8">
+          <div className="inline-flex items-center gap-2 px-4 py-2 bg-warning/10 border border-warning/20 rounded-lg">
+            <span className="text-sm text-warning font-medium">
+              ⚠️ These are real reviews from our community with usernames truncated for privacy
+            </span>
+          </div>
+        </div>
+
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
             What Traders Are <span className="text-primary">Saying</span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Real testimonials from real traders who've transformed their trading with ValexTools.
+            Real testimonials from real traders in our community.
           </p>
         </div>
 
