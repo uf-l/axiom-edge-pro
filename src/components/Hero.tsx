@@ -49,12 +49,24 @@ const Hero = () => {
         
         {/* CTA Buttons */}
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center animate-slide-up">
-          <button className="bg-gradient-primary text-primary-foreground px-8 py-4 rounded-xl font-semibold text-lg hover:opacity-90 transition-opacity glow-primary">
+          <button 
+            id="install-bookmarklet-btn"
+            className="bg-gradient-primary text-primary-foreground px-8 py-4 rounded-xl font-semibold text-lg hover:opacity-90 transition-opacity glow-primary cursor-move"
+            draggable="true"
+            onDragStart={(e) => {
+              // The bookmarklet code will be set here later
+              e.dataTransfer.setData("text/plain", "javascript:void(0);");
+            }}
+            title="Drag this button to your bookmarks bar to install"
+          >
             Install Bookmarklet
           </button>
-          <button className="border border-border text-foreground px-8 py-4 rounded-xl font-semibold text-lg hover:bg-secondary transition-colors">
-            Watch Demo
-          </button>
+          <a 
+            href="#faq"
+            className="border border-border text-foreground px-8 py-4 rounded-xl font-semibold text-lg hover:bg-secondary transition-colors inline-block"
+          >
+            How to Install
+          </a>
         </div>
         
         {/* Trust indicator */}

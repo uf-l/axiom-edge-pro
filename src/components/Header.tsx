@@ -28,7 +28,18 @@ const Header = () => {
           </nav>
           
           {/* CTA Button */}
-          <button className="bg-gradient-primary text-primary-foreground px-6 py-2 rounded-lg font-medium hover:opacity-90 transition-opacity glow-primary">
+          <button 
+            onClick={() => {
+              window.scrollTo({ top: 0, behavior: 'smooth' });
+              setTimeout(() => {
+                const installBtn = document.getElementById('install-bookmarklet-btn');
+                if (installBtn) {
+                  installBtn.style.animation = 'pulse 2s ease-in-out 3';
+                }
+              }, 500);
+            }}
+            className="bg-gradient-primary text-primary-foreground px-6 py-2 rounded-lg font-medium hover:opacity-90 transition-opacity glow-primary"
+          >
             Install Now
           </button>
         </div>
