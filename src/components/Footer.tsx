@@ -1,4 +1,4 @@
-import { Twitter, Github, MessageCircle } from 'lucide-react';
+import { Zap, Shield, Target, TrendingUp } from 'lucide-react';
 
 const Footer = () => {
   return (
@@ -16,33 +16,11 @@ const Footer = () => {
               <p className="text-sm text-muted-foreground">Professional trading tools for axiom.trade</p>
             </div>
           </div>
-          
-          {/* Social Links */}
-          <div className="flex items-center gap-4">
-            <a 
-              href="#" 
-              className="p-2 rounded-lg bg-secondary hover:bg-secondary/80 text-muted-foreground hover:text-foreground transition-colors"
-            >
-              <Twitter size={20} />
-            </a>
-            <a 
-              href="#" 
-              className="p-2 rounded-lg bg-secondary hover:bg-secondary/80 text-muted-foreground hover:text-foreground transition-colors"
-            >
-              <Github size={20} />
-            </a>
-            <a 
-              href="#" 
-              className="p-2 rounded-lg bg-secondary hover:bg-secondary/80 text-muted-foreground hover:text-foreground transition-colors"
-            >
-              <MessageCircle size={20} />
-            </a>
-          </div>
         </div>
         
         <div className="mt-8 pt-8 border-t border-border text-center">
           <p className="text-sm text-muted-foreground">
-            © 2024 ValexTools. Built for traders, by traders. Not affiliated with axiom.trade.
+            © 2025 ValexTools. Built for traders, by traders. Not affiliated with axiom.trade.
           </p>
           <p className="text-xs text-muted-foreground mt-2">
             Trade responsibly. Past performance does not guarantee future results.

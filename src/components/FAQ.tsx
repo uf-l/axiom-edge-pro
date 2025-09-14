@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { ChevronDown, Chrome, Globe, Apple, Download, Shield, Zap, AlertCircle } from 'lucide-react';
 
 const FAQ = () => {
-  const [openFaq, setOpenFaq] = useState<number | null>(0);
+  const [openFaq, setOpenFaq] = useState<number | null>(null);
 
   const faqs = [
     {
@@ -36,22 +36,22 @@ const FAQ = () => {
       name: "Chrome",
       icon: Chrome,
       steps: [
-        "Copy the bookmarklet code",
-        "Right-click your bookmarks bar",
-        "Select 'Add page' or 'Add bookmark'",
-        "Paste the code as URL and name it 'ValexTools'",
-        "Click on axiom.trade and click the bookmark"
+        "Go to the top of this page",
+        "Drag the 'Install Bookmarklet' button to your bookmarks bar",
+        "The bookmark will be automatically named 'ValexTools'",
+        "Navigate to axiom.trade",
+        "Click the ValexTools bookmark to activate the tool"
       ]
     },
     {
       name: "Firefox",
       icon: Globe,
       steps: [
-        "Copy the bookmarklet code",
-        "Press Ctrl+Shift+B to show bookmarks",
-        "Right-click and select 'New Bookmark'",
-        "Paste the code in Location field",
-        "Name it 'ValexTools' and save"
+        "Press Ctrl+Shift+B to show bookmarks bar",
+        "Go to the top of this page",
+        "Drag the 'Install Bookmarklet' button to your bookmarks bar",
+        "Navigate to axiom.trade",
+        "Click the ValexTools bookmark to activate the tool"
       ]
     },
     {
@@ -59,10 +59,10 @@ const FAQ = () => {
       icon: Apple,
       steps: [
         "Show the bookmarks bar (View → Show Bookmarks Bar)",
-        "Copy the bookmarklet code",
-        "Right-click the bookmarks bar",
-        "Select 'Add Bookmark' and paste the code",
-        "Name it 'ValexTools' and save"
+        "Go to the top of this page",
+        "Drag the 'Install Bookmarklet' button to your bookmarks bar",
+        "Navigate to axiom.trade",
+        "Click the ValexTools bookmark to activate the tool"
       ]
     }
   ];
